@@ -6,7 +6,7 @@
   </defs>
 
   <!-- Rounded square background -->
-  <rect width="512" height="512" rx="108" ry="108" fill="#b2754c"/>
+  <rect width="512" height="512" rx="108" ry="108" fill="#8f4d27"/>
 
   <!-- Subtle gradient overlay for depth -->
   <rect width="512" height="512" rx="108" ry="108" fill="url(#grad)" opacity="0.15"/>

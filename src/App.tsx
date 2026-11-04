@@ -715,19 +715,19 @@ function Onboarding({ onDone, lang }: { onDone: () => void; lang: Language }) {
       icon: "🎙️",
       title: t.onboardTitle1,
       desc: t.onboardDesc1,
-      color: "#b2754c",
+      color: "#8f4d27",
     },
     {
       icon: "🏛️",
       title: t.onboardTitle2,
       desc: t.onboardDesc2,
-      color: "#c08761",
+      color: "#a45e35",
     },
     {
       icon: "👨‍👩‍👧‍👦",
       title: t.onboardTitle3,
       desc: t.onboardDesc3,
-      color: "#b2754c",
+      color: "#8f4d27",
     },
   ]
 
@@ -1438,7 +1438,7 @@ function Settings({
           <div className="about-card">
             <div className="about-logo">
               <svg width="48" height="48" viewBox="0 0 80 80" fill="none">
-                <rect width="80" height="80" rx="20" fill="#b2754c" />
+                <rect width="80" height="80" rx="20" fill="#8f4d27" />
                 <text x="40" y="55" textAnchor="middle" fill="white" fontSize="42" fontWeight="700" fontFamily="'Noto Sans Devanagari:Bold', sans-serif">म</text>
               </svg>
             </div>

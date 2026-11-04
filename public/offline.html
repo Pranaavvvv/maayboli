@@ -8,7 +8,10 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #ffffff;
+      background-color: #faf5ee;
+      background-image: url('/bg.png');
+      background-size: cover;
+      background-position: center top;
       color: #2c2018;
       min-height: 100vh;
       display: flex;
@@ -19,13 +22,15 @@
       text-align: center;
     }
     .card {
-      background: #ffffff;
-      border: 1px solid #ede5dc;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1.5px solid rgba(236, 227, 218, 0.9);
       border-radius: 20px;
       padding: 36px 24px;
       max-width: 380px;
       width: 100%;
-      box-shadow: 0 8px 30px rgba(60, 35, 20, 0.05);
+      box-shadow: 0 8px 30px rgba(60, 35, 20, 0.08);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -39,11 +44,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #b2754c;
+      color: #8f4d27;
     }
     h1 {
       font-size: 22px;
-      color: #b2754c;
+      color: #8f4d27;
       font-weight: 700;
     }
     p {
@@ -53,7 +58,7 @@
     }
     .retry-btn {
       margin-top: 8px;
-      background: linear-gradient(135deg, #c48c66 0%, #aa724c 100%);
+      background: linear-gradient(135deg, #a45e35 0%, #854420 100%);
       color: #ffffff;
       border: none;
       border-radius: 999px;
@@ -62,10 +67,10 @@
       font-weight: 600;
       cursor: pointer;
       transition: background 0.2s, transform 0.2s;
-      box-shadow: 0 4px 14px rgba(178,117,76,.25);
+      box-shadow: 0 4px 14px rgba(133, 68, 32, 0.32);
     }
     .retry-btn:hover {
-      background: linear-gradient(135deg, #b87f59 0%, #9c6441 100%);
+      background: linear-gradient(135deg, #96532d 0%, #753b1a 100%);
       transform: translateY(-2px);
     }
     .brand {

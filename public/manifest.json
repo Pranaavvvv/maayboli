@@ -5,7 +5,7 @@
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#b2754c",
+  "theme_color": "#8f4d27",
   "background_color": "#ffffff",
   "scope": "/",
   "categories": ["utilities", "government"],
