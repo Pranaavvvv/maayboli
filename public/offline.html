@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>माय बोली · ऑफलाइन</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #ffffff;
+      color: #2c2018;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #ede5dc;
+      border-radius: 20px;
+      padding: 36px 24px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 8px 30px rgba(60, 35, 20, 0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .icon-badge {
+      width: 72px;
+      height: 72px;
+      border-radius: 20px;
+      background: #faf6f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #b2754c;
+    }
+    h1 {
+      font-size: 22px;
+      color: #b2754c;
+      font-weight: 700;
+    }
+    p {
+      color: #75675e;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .retry-btn {
+      margin-top: 8px;
+      background: linear-gradient(135deg, #c48c66 0%, #aa724c 100%);
+      color: #ffffff;
+      border: none;
+      border-radius: 999px;
+      padding: 12px 28px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      box-shadow: 0 4px 14px rgba(178,117,76,.25);
+    }
+    .retry-btn:hover {
+      background: linear-gradient(135deg, #b87f59 0%, #9c6441 100%);
+      transform: translateY(-2px);
+    }
+    .brand {
+      margin-top: 24px;
+      color: #75675e;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon-badge">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0119 12.55M5 12.55a10.94 10.94 0 015.17-2.39M10.71 5.05A16 16 0 0122.58 9M1.42 9a15.91 15.91 0 014.7-2.88M8.53 16.11a6 6 0 016.95 0M12 20h.01"/>
+      </svg>
+    </div>
+    <h1>इंटरनेट कनेक्शन नाही</h1>
+    <p>कृपया तुमचे इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.</p>
+    <button class="retry-btn" onclick="window.location.reload()">पुन्हा प्रयत्न करा</button>
+  </div>
+  <p class="brand">माय बोली · तुमच्या भाषेत, तुमच्या सोयीने</p>
+</body>
+</html>

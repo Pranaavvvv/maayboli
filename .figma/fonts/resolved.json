@@ -1,0 +1,148 @@
+{
+  "resolved": [
+    {
+      "family": "Inter",
+      "style": "Semi Bold",
+      "font_style": "normal",
+      "font_weight": 600,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Inter_1"
+      }
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "style": "Bold",
+      "font_style": "normal",
+      "font_weight": 700,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansDevanagari-Bold_1"
+      }
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "style": "Medium",
+      "font_style": "normal",
+      "font_weight": 500,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansDevanagari-Medium_1"
+      }
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansDevanagari-Regular_1"
+      }
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "style": "SemiBold",
+      "font_style": "normal",
+      "font_weight": 600,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansDevanagari-SemiBold_1"
+      }
+    },
+    {
+      "family": "Noto Sans Math",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansMath-Regular_1"
+      }
+    },
+    {
+      "family": "Noto Sans Symbols2",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansSymbols2-Regular_5"
+      }
+    },
+    {
+      "family": "Noto Sans Symbols",
+      "style": "Medium",
+      "font_style": "normal",
+      "font_weight": 500,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansSymbols-VF_2"
+      }
+    },
+    {
+      "family": "Noto Sans Symbols",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansSymbols-VF_2"
+      }
+    },
+    {
+      "family": "Noto Sans Symbols",
+      "style": "SemiBold",
+      "font_style": "normal",
+      "font_weight": 600,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSansSymbols-VF_2"
+      }
+    },
+    {
+      "family": "Noto Sans",
+      "style": "Medium",
+      "font_style": "normal",
+      "font_weight": 500,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSans-VF_3"
+      }
+    },
+    {
+      "family": "Noto Sans",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSans-VF_3"
+      }
+    },
+    {
+      "family": "Noto Sans",
+      "style": "SemiBold",
+      "font_style": "normal",
+      "font_weight": 600,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/NotoSans-VF_3"
+      }
+    }
+  ],
+  "blocked": []
+}
